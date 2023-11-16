@@ -1,0 +1,47 @@
+Question2:-
+
+Answer:-
+
+1. **Separating Statements:** The comma operator can be used to separate multiple expressions within a statement. 
+
+    For example:
+    let a = 1, b = 2, c = 3;
+    
+
+2. **In for loops:** The comma operator can be used in the initialization, condition, and iteration parts of a for loop. 
+
+    For example:
+    for (let i = 0, j = 10; i < j; i++, j--) {
+      // body
+    }
+
+
+3. **Function Arguments:** When calling a function, the comma operator can be used to separate arguments:
+
+    For example:
+    function add(a, b) {
+      return a + b;
+    }
+    let result = add(5, 3);
+    
+
+4. **In Object or Array Creation:** Commas are used to separate elements within arrays and object properties:
+
+    For example:
+    let arr = [1, 2, 3, 4];
+    let obj = { a: 1, b: 2, c: 3 };
+    
+
+5. **In Multiple Assignments:** The comma operator can be used for multiple assignments in a single statement:
+
+    For example:
+    let a = 1, b = 2;
+    [a, b] = [b, a]; 
+   
+
+6. **Ignoring Expressions:** It can be used to ignore or discard the result of an expression. 
+
+    For example:
+    let x = (5 + 3, 10 + 2); 
+    
+
